@@ -1,0 +1,16 @@
+.job {
+    margin-bottom: 50px;
+    display: block;
+}
+
+.job:hover {
+    text-decoration: none;
+}
+
+.job img {
+    margin-bottom: 25px;
+}
+
+.job p {
+    color: #98C1D9;
+}

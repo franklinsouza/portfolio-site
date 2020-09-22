@@ -1,0 +1,30 @@
+html, body {
+    background-color: #1A202C;
+    color: #FFF;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #98C1D9;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Domine', serif;
+    color: #E0FBFC;
+}
+
+a,
+a:hover {
+    color: #EE6C4D;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+.title-section {
+    margin-bottom: 25px;
+}

@@ -1,0 +1,39 @@
+.item {
+    position: relative;
+    margin-right: 20px;
+    padding-right: 20px;
+    margin-bottom: 20px;
+}
+
+/* .item:last-child {
+    margin-right: 0;
+    padding-right: 0;
+} */
+
+.item:after {
+    content: '';
+    width: 2px;
+    height: 45px;
+    background-color: #293950;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-top: -27px;
+}
+
+.item:last-child:after {
+    display: none;
+}
+
+.item h6 {
+    text-transform: uppercase;
+}
+
+.item p {
+    margin-bottom: 7px;
+}
+
+.item .date {
+    color: #EE6C4D;
+    font-size: 14px;
+}
